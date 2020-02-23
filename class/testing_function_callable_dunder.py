@@ -8,4 +8,3 @@ print(person('TestName1'))
 print(person.is_test('TestName1'))
 # Should be absent.
 print(person.is_test('TestName2'))
-
