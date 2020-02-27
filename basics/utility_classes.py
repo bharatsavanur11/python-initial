@@ -1,3 +1,4 @@
+
 class PersonService:
     _cache = str
     scientist_list = ["Aryabhatta India", "Newton UK", "Albert Einstein"]
@@ -92,3 +93,12 @@ class MyDecorator:
 @MyDecorator
 def my_function(name: str):
     return name.capitalize()
+
+
+class Person:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+    def __repr__(self):
+        return self.name + "_" + str(self.age)
