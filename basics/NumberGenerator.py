@@ -1,3 +1,8 @@
+i = ['a','b','c']+[1,2,3]
+print(i)
+
+
+
 # Custom Iterator
 class PrintNumber:
     def __init__(self, max_num):
